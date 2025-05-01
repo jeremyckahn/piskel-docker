@@ -43,7 +43,7 @@ RUN apt-get update && \
   && rm -rf /var/lib/apt/lists/*
 
 # Copy the Piskel zip file into the container
-COPY piskel/Piskel-0.14.0-64bits.zip /tmp/piskel.zip
+COPY source-zip/Piskel-0.14.0-64bits.zip /tmp/piskel.zip
 
 # Create a directory for the application and extract it
 RUN mkdir -p /opt/piskel && \
