@@ -6,7 +6,7 @@ IMAGE_NAME := piskel-app
 # Name for the running container
 CONTAINER_NAME := piskel-gui
 # Piskel zip file (used as a dependency check for build)
-ZIP_FILE := piskel/Piskel-0.14.0-64bits.zip
+ZIP_FILE := source-zip/Piskel-0.14.0-64bits.zip
 
 # --- Targets ---
 
