@@ -9,6 +9,10 @@ This project provides Dockerfiles and Makefiles to containerize the
 [Piskel](https://www.piskelapp.com/) application. It includes configurations
 for both the web and desktop versions of Piskel.
 
+This project is based on a minimally-modified version of Piskel with some
+necessary fixes. You can see the changes here:
+<https://github.com/piskelapp/piskel/compare/master...jeremyckahn:piskel:master>
+
 ## Web Version (`web/`)
 
 The `web/` directory contains the necessary files to build and run a Docker

@@ -18,7 +18,7 @@ WORKDIR /app
 # Clone the Piskel repository (master branch by default) into the current directory (.)
 # --depth 1 creates a shallow clone (faster, less data)
 # Remove the .git folder afterwards as it's not needed for runtime
-RUN git clone --depth 1 https://github.com/piskelapp/piskel.git . && \
+RUN git clone --depth 1 https://github.com/jeremyckahn/piskel.git . && \
   rm -rf .git
 
 # Install dependencies using the lock file.
